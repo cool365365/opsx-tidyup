@@ -33,11 +33,27 @@
 - **写对地方**：「模型该知道的规则」进 CLAUDE.md/AGENTS.md，「人怎么用」进 README/docs——混着写等于没沉淀；
 - 不主动发明新文档：项目已有才更新，没有不硬造。
 
+## 安装
+
+把这句话发给你的 Agent（如 workbuddy / codex / claude code / zcode 等等）即可：
+
+```text
+请安装这个 skill：https://github.com/cool365365/opsx-tidyup
+```
+
+## 建议配套安装
+
+同族另两件（单独使用也成立）：
+
+```text
+请安装这两个 skill：
+- https://github.com/cool365365/opsx-worklog
+- https://github.com/cool365365/opsx-handover
+```
+
 ## 使用
 
-把本目录放入你的 agent skills 目录（如 `~/.claude/skills/opsx-tidyup`），对话中说「沉淀一下」「同步下项目文档」「更新 AGENTS.md」等即可触发。
-
-可与同族另两件配合使用；单独安装也完全可用。
+对话中说「沉淀一下」「同步下项目文档」「更新 AGENTS.md」等即可触发。
 
 ## 目录结构
 
